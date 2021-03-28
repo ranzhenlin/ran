@@ -1,0 +1,722 @@
+
+body{
+    background-color: #eef7f2;
+}
+.layout{
+    width: 1300px;
+    height: 2900px;
+    margin: 0 auto;
+    /*background-color: darkorchid;*/
+    /*border: 1px solid #E0E0E0;*/
+}
+.middle{
+    /*background-color: darkorchid;*/
+    width: 1300px;
+    height: 3000px;
+    margin: 0 auto;
+    border: 1px solid #E0E0E0;
+}
+/*导航条*/
+.top_fixed{
+    text-align: center;
+    background-color: #eef7f2;
+    z-index: 999;
+    position: fixed;
+    /*position: fixed;*/
+    width: 1320px;
+    height: 100px;
+    top: 0;
+    margin: 0 auto
+}
+.logo_div{
+    float: left;
+    width: 120px;
+    height: 60px;
+    background-image: url("../images/index/logo.png");
+    background-size:cover ;
+}
+.logo_image{
+    width: 120px;
+    height: 60px;
+}
+.menu{
+    float: left;
+    /*margin-left: 50px;*/
+    width: 1180px;
+    margin: auto -20px;
+    text-align: center;
+}
+.menu_div{
+    width: 1180px;
+    height: 60px;
+    float: left;
+    background-color: #add5a2;
+}
+.header{
+    /*background-color: #add5a2;*/
+    /*z-index: 999;*/
+    /*position: fixed;*/
+    top: 20px;
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+    height: 60px;
+    width: 1300px;
+    /*background-color: #46b8da;*/
+
+}
+.rr{
+    z-index:19998;
+}
+.dao{
+    display: inline-block;
+    font-size: 20px;
+    /*width: 150px;*/
+    height: 60px;
+    /*控制li标记水平显示去掉项目符号*/
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    /*background-repeat: no-repeat;*/
+    text-align: center;
+    /*background-position: 15px center;*/
+    line-height: 60px;
+    background-color: #add5a2;
+    /*border-right: 1px solid white;*/
+}
+a{
+    text-align: center;
+    text-decoration: none;
+}
+.a_div{
+    z-index:999999;
+    width: 115px;
+    height: 60px;
+    color: #000;
+}
+a .a_div:hover{
+    /*display: inline-block;*/
+    z-index:1;
+    text-align: center;
+    /*background-size: auto 40%;*/
+    /*控制背景图片的位置*/
+    line-height: 60px;
+    background-color: #baccd9;
+    /*border-right: 1px solid white;*/
+    /*鼠标经过时的形变效果*/
+    /*transition:all 2s;*/
+    color: #fff;
+}
+.nav_item_display{
+    display: none;
+    background-color: #baccd9;
+}
+.rr:hover .nav_item_display{
+    z-index:10;
+    display: block;
+    background-color: #baccd9;
+}
+.search_li{
+    width: 220px;
+    line-height: 50px;
+}
+.search_button{
+    margin-top: -10px;
+    width: 60px;
+    height: 35px;
+    border-radius: 5px;
+}
+.search_input{
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    line-height: 50px;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border-color: #EEF7F2;
+}
+.table_search_button{
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+/*/!* 类选择器 *!/*/
+/*.imgBox {*/
+/*border-top: 5px solid cadetblue;*/
+/*/!* 避免因窗口变化影响图片效果 *!/*/
+/*width: 1440px;*/
+/*height: 900px;*/
+/*margin-top: 120px;*/
+/*}*/
+
+/*.img {*/
+/*/!*z-index:-1111;*!/*/
+/*width: 100%;*/
+/*height: 900px;*/
+/*margin: 0 auto;*/
+
+/*}*/
+
+/*轮播图*/
+.max{
+    width: 1300px;
+    height:550px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    /*background-color: aquamarine;*/
+}
+.re{
+    position: absolute;
+    height: 900px;
+}
+.re ul{
+    list-style-type:none ;
+}
+.lun{
+    z-index: 500;
+    width: 100px;
+    height: 500px;
+    position: absolute;
+    transition: 1s;
+    opacity: 0;
+    margin: 0 auto;
+
+}
+img{
+    width:1300px;
+    height: 500px;
+    margin: 0 auto;
+    margin-left: -40px;
+}
+
+
+
+/*景点ming*/
+.jindain_name{
+    width: 1300px;
+    height: 80px;
+    margin-top: -50px;
+    /*background-color: #1c31c0;*/
+}
+
+.title{
+    position: relative;
+    width: 100%;
+    border-bottom: 2px silver solid;
+}
+.wan_h3{
+    padding-left: 20px;
+    font-size: 35px;
+    color: #666866;
+}
+
+.title h3{
+    line-height: 80px;
+    font-size: 28px;
+    /*color: black;*/
+    width: 350px;
+    /*font-weight: 600;*/
+    margin-left: 30px;
+    border-bottom: 2px #1c31c0 solid;
+    padding-bottom: 3px;
+}
+.title a{
+    line-height: 80px;
+    display: block;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-decoration: none;
+    color: silver;
+    margin-right: 30px;
+    font-size: 25px;
+}
+/*摄影节*/
+.zimingjingdian{
+    margin-top: 50px;
+    width: 1300px;
+    height: 530px;
+    /*background-color: azure;*/
+}
+.zimingjingdian_ul{
+    width: 1300px;
+    height: 500px;
+    margin-top: 50px;
+}
+.zimingjingdian_ul li{
+    list-style: none;
+    float: left;
+    margin-left: 40px;
+    width: 350px;
+    height:480px;
+}
+.zimingjingdian_ul_li_out{
+    margin-top: 20px;
+    width: 350px;
+    height: 500px;
+    /*background-color: #F0FFFF;*/
+    transition: all 500ms;
+    border: 1px solid #E0E0E0;
+}
+.zimingjingdian_ul_li_out:hover{
+    /*transform: translateY(-10px);*/
+    transform: translateY(-10px) translateX(-5px);
+    box-shadow: 10px 5px 5px #E0E0E0, 20px 20px 20px #E3E3E3;
+
+}
+.zimingjingdian_ul_li_out_top{
+    width: 350px;
+    height: 40px;
+    background-color: #add5a2;
+    margin-top: -20px;
+}
+.zimingjingdian_ul_li_out_top_title{
+    color: #666666;
+    line-height: 40px;
+}
+
+.zimingjingdian_ul_li_out_middle{
+    width:350px;
+    height: 250px;
+    /*background-color: chartreuse;*/
+    overflow: hidden;
+}
+.zimingjingdian_ul_li_out_middle_img:hover {
+  transform: scale(1.5);
+    width:350px;
+    height: 250px;
+
+}
+
+.zimingjingdian_ul_li_out_middle_img{
+    display: block;
+    width:350px;
+    height: 250px;
+    margin-left: 0px;
+    transition: all 1s;
+}
+
+.zimingjingdian_ul_li_out_bottom{
+    width: 350px;
+    height: 190px;
+    background-color:#F0FFFF;
+}
+.zimingjingdian_ul_li_out_bottom_content{
+
+    font-size: 17px;
+    margin:20px 10px;
+    color: #666666;
+    line-height: 26px;
+    text-indent: 2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:6;
+    text-align: justify;
+    -webkit-box-orient: vertical;
+}
+
+/*景点简介*/
+.jinqujieshao{
+    margin-top: 20px;
+    width: 1300px;
+    height: 1950px;
+    /*background-color: #add5a2;*/
+    border:1px solid #E0E0E0;
+
+}
+.daohang{
+    /*background-color: aliceblue;*/
+    width: 1300px;
+    height: 50px;
+    box-shadow: 1px 5px 5px #E0E0E0, 0 20px 20px #E3E3E3;
+}
+.daohang_ul li{
+    list-style: none;
+    float: left;
+}
+.daohang_item{
+    line-height: 50px;
+    text-align: center;
+    width: 160px;
+    height: 50px;
+    border-right: 3px solid silver;
+
+}
+.daohang_ul_li_a{
+    text-decoration: none;
+}
+
+.daohang_ul_li_a:link{
+    font-weight: 600;
+    font-size: 20px;
+    color: #666666;
+}
+.daohang_ul_li_a:hover{
+    font-weight: 600;
+    font-size: 20px;
+    color: #00366F;
+}
+.jingqujieshao_content{
+    margin-top: 10px;
+    width: 1300px;
+    height: 800px;
+    border:1px solid #E0E0E0;
+}
+/*景区介绍*/
+.jingqujieshao_content_1{
+    width: 1300px;
+    height: 400px;
+}
+.jingqujieshao_content_detail{
+    font-size: 18px;
+    color: #666666;
+    text-indent:2em;
+    line-height: 35px;
+    margin: 0 30px;
+    text-align: justify;
+}
+.jingqujieshao_content_title{
+    font-weight: 600;
+    font-size: 23px;
+    color: #666666;
+    margin-left: 30px;
+}
+.jingqujieshao_content_ul_li{
+    margin-left: 100px;
+    float: left;
+    width: 300px;
+    font-size: 18px;
+    margin-top: 20px;
+    color:  #002870;
+    font-weight: 500;
+}
+.li_title_content{
+    font-size: 18px;
+    color: #666666;
+}
+/*景区相册*/
+.jingquxaangche{
+    margin-top: 150px;
+    width: 1300px;
+    height: 800px;
+    /*background-color: antiquewhite;*/
+}
+.jingquxaangche_ul{
+    margin-left: -50px;
+}
+
+.jingquxaangche_ul li{
+    text-decoration: none;
+    margin-left: 60px;
+    float: left;
+    width: 360px;
+    font-size: 20px;
+    margin-top: 20px;
+    list-style: none;
+}
+.jingquxaangche_ul_li_d{
+    margin-top: 20px;
+    transition: all 500ms;
+    width: 360px;
+    height:320px;
+    /*background-color: #fff;*/
+}
+.jingquxaangche_ul_li_image{
+
+    margin-left: 1px;
+    width: 360px;
+    height: 280px;
+}
+.jingquxaangche_ul_li_d:hover{
+    transform: scale(1.3);
+}
+.jingquxaangche_ul li img:after{content: attr(title)}
+
+.jingquxaangche_ul_li_title{
+    width: 360px;
+    height: 40px;
+    margin-bottom: 1px;
+    text-align: center;
+    font-size: 18px;
+    color:  #002870;
+}
+/*/!*游客评论*!/*/
+/*.youkepingjia{*/
+    /*/!*margin-top: -50px;*!/*/
+    /*width: 1300px;*/
+    /*height: 450px;*/
+    /*/!*background-color: aquamarine;*!/*/
+/*}*/
+/*.fabiaopinglun{*/
+    /*width: 1100px;*/
+    /*height: 380px;*/
+    /*/!*background-color: #E0E0E0;*!/*/
+/*}*/
+/*.pinglunkuang{*/
+    /*font-size: 20px;*/
+    /*margin-left:100px;*/
+    /*width: 1100px;*/
+    /*height: 300px;*/
+    /*text-align: right;*/
+    /**/
+/*}*/
+/*.youkepingjia_anniu{*/
+    /*font-size: 20px;*/
+
+/*}*/
+/*.pinglunkuang_anniu_d{*/
+    /*margin-top: 10px;*/
+    /*width: 1200px;*/
+    /*height: 20px;*/
+    /*text-align: right;*/
+/*}*/
+
+/*路线推荐*/
+.luxaintuijian_out_big{
+    width: 1300px;
+    height: 480px;
+    /*background-color: aqua;*/
+}
+/*旅游路线左边部分*/
+.luxaintuijian_left{
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    width: 420px;
+    height: 400px;
+    /*background-color: bisque;*/
+    -webkit-animation: ran 10000ms infinite linear;
+    transition-duration: 3000ms;
+    transition-delay: 3000ms;
+    transition-property: background-image;
+    background-size: auto;
+}
+@keyframes ran {
+    0% {
+        background-image: url("../images/index/qtx1.jpg");
+        background-size: cover;
+    }
+    25% {
+        background-image: url("../images/index/qutangxia.jpg");
+        background-size: cover;
+    }
+    50% {
+        background-image: url("../images/index/bo.jpg");
+        background-size: cover;
+    }
+    75% {
+        background-image: url("../images/page1/jinghuiyingkuimeng.jpg");
+        background-size: cover;
+    }
+    100% {
+        background-image: url("../images/index/qtx1.jpg");
+        background-size: cover;
+    }
+}
+
+/*旅游路线右边部分*/
+.luxaintuijian_right{
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    width: 820px;
+    height: 400px;
+    /*background-color: cornsilk;*/
+}
+.luxaintuijian_right_ul li{
+    margin-top: 10px;
+    list-style: none;
+}
+.luxaintuijian_right_ul_li_main{
+    transition: all 500ms;
+    border: 1px solid #E0E0E0;
+    margin-left: -30px;
+    width: 820px;
+    height: 67px;
+    background-color: #EEF7F2;
+}
+
+.luxaintuijian_right_ul_li_main:hover{
+    transform: translateY(-5px) scale(1.01);
+    box-shadow: 5px 5px 5px #E0E0E0, 10px 10px 20px #E3E3E3;
+
+}
+
+.luxaintuijian_right_ul_li_main_left{
+    float: left;
+    width: 80px;
+    height: 65px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.luxaintuijian_right_ul_li_main_right{
+    margin-left: 10px;
+    float: left;
+    width: 725px;
+    height: 65px;
+    /*background-color: darkorchid;*/
+}
+.luxaintuijian_right_ul_li_main_left_title{
+    color: #666666;
+    font-size: 20px;
+}
+
+.luxaintuijian_right_ul_li_main_right_content{
+    font-size: 15px;
+    margin:2px 10px;
+    color: #666666;
+    line-height: 20px;
+    text-indent: 2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:3;
+    text-align: justify;
+    -webkit-box-orient: vertical;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*版记*/
+.banji{
+    /*position: absolute;*/
+    margin-top: 75px;
+    width: 1300px;
+    height: 180px;
+    background-color: #add5a2;
+}
+.banji_left{
+    float: left;
+    margin-left: 30px;
+    width:900px;
+    height: 100px;
+    /*background-color: #add5a2;*/
+    color: #666866;
+}
+.banji_left_lijie{
+    padding-left: 20px;
+    font-size: 18px;
+    color: #666866;
+    /*background-color: #baccd9;*/
+}
+.banji_left_lijie_a{
+    text-decoration: none;
+    color: #666866;
+}
+.banji_right{
+    margin-top: 20px;
+    float: right;
+    width: 300px;
+    height: 100px;
+    /*background-color: #baccd9;*/
+    color: #666866;
+}
+.erweima{
+    float: right;
+    margin-right: 60px;
+    width: 100px;
+    height: 100px;
+    /*background-color: blue;*/
+    background-image: url("../images/index/erweima.png");
+    background-size: cover;
+}
+.erweima2{
+    float: right;
+    margin-right: 40px;
+    width: 100px;
+    height: 100px;
+    /*background-color: #1c31c0;*/
+    background-image: url("../images/index/erweima2.png");
+    background-size: cover;
+}
+.banquan{
+    float: left;
+    margin-top: -20px;
+    width: 1300px;
+    height: 30px;
+    text-align: center;
+    /*background-color: #baccd9;*/
+}
+.banquan_p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #666666;
+    text-align: center;
+}
+
+
+/*.banji{*/
+    /*/!*position: absolute;*!/*/
+    /*margin-top: -80px;*/
+    /*width: 1500px;*/
+    /*height: 200px;*/
+    /*background-color: #add5a2;}*/
+/*.banji_left{*/
+    /*float: left;*/
+    /*margin-left: 80px;*/
+    /*width: 1000px;*/
+    /*height: 120px;*/
+    /*/!*background-color: #add5a2;*!/*/
+    /*color: #666866;*/
+/*}*/
+/*.banji_left_lijie{*/
+    /*padding-left: 50px;*/
+    /*font-size: 20px;*/
+    /*color: #666866;*/
+/*}*/
+/*.banji_left_lijie_a{*/
+    /*text-decoration: none;*/
+    /*color: #666866;*/
+/*}*/
+/*.banji_right{*/
+    /*margin-top: 20px;*/
+    /*float: left;*/
+    /*width: 400px;*/
+    /*height: 120px;*/
+    /*/!*background-color: #baccd9;*!/*/
+    /*color: #666866;*/
+/*}*/
+/*.erweima{*/
+    /*float: left;*/
+    /*width: 120px;*/
+    /*height: 120px;*/
+    /*/!*background-color: blue;*!/*/
+    /*background-image: url("../images/erweima.png");*/
+    /*background-size: cover;*/
+/*}*/
+/*.erweima2{*/
+    /*float: left;*/
+    /*margin-left: 30px;*/
+    /*width: 120px;*/
+    /*height: 120px;*/
+    /*/!*background-color: #1c31c0;*!/*/
+    /*background-image: url("../images/erweima2.png");*/
+    /*background-size: cover;*/
+/*}*/
+/*.banquan{*/
+    /*margin-top: 100px;*/
+    /*width: 1500px;*/
+    /*height: 30px;*/
+    /*text-align: center;*/
+    /*/!*background-color: #baccd9;*!/*/
+/*}*/
+/*.banquan_p{*/
+    /*font-size: 20px;*/
+    /*line-height: 30px;*/
+    /*color: #666866;*/
+    /*text-align: center;*/
+/*}*/
